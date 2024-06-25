@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="326.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+   <children>
+      <ImageView fitHeight="338.0" fitWidth="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/Server.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="131.0" layoutY="177.0" mnemonicParsing="false" onAction="#OnSever" prefHeight="36.0" prefWidth="50.0" style="-fx-background-color: #fcebfa;">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/kok.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text fill="#c401a7" layoutX="214.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hiii :3">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#ae14c9" layoutX="122.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat App" wrappingWidth="73.60002441406255">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
